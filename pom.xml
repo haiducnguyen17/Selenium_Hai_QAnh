@@ -10,9 +10,11 @@
 
 	<name>Selenium_Java</name>
 	<url>http://maven.apache.org</url>
+	<name2>http://maven.apache.org</name2>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.build.sourceEncoding>My name is Hai</project.build.sourceEncoding>
 	</properties>
 	
 	<build>
