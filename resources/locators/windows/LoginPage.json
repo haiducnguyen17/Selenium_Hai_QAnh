@@ -20,7 +20,7 @@
 			"type": "xpath",
 			"value": "//li/a/span[text()='SampleRepository']"
 		},
-		"logOut": {
+		"logout": {
 			"type": "xpath",
 			"value": "//li/a[@href='logout.do']"
 		},

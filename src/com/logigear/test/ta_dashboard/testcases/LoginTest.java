@@ -22,7 +22,7 @@ public class LoginTest extends BaseTest{
 		
 		LoginPage loginpage = new LoginPage();
 		HomePage homePage = loginpage.login(USERNAME, PASSWORD, SAMPLE_REPO);
-
+		
 		String actualMsg = homePage.getRepoName();
 		System.out.println("RepoName is: "+actualMsg);
 		String expectedMsg = "SampleRepository";
