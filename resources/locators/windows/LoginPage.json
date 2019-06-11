@@ -15,6 +15,19 @@
 		"btnLogin": {
 			"type": "xpath",
 			"value": "//div[@class='btn-login']"
+		},
+		"RepoName": {
+			"type": "xpath",
+			"value": "//li/a/span[text()='SampleRepository']"
+		},
+		"logOut": {
+			"type": "xpath",
+			"value": "//li/a[@href='logout.do']"
+		},
+		"account": {
+			"type": "xpath",
+			"value": "//li/a[@href='#Welcome']"
 		}
+		
 	}
 }

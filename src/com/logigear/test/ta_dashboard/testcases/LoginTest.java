@@ -1,5 +1,7 @@
 package com.logigear.test.ta_dashboard.testcases;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -16,13 +18,16 @@ public class LoginTest extends BaseTest{
 		
 		String USERNAME = "administrator";
 		String PASSWORD = "";
-		String SAMPLE_REPO = "TestRepository";
+		String SAMPLE_REPO = "SampleRepository";
 		
 		LoginPage loginpage = new LoginPage();
 		HomePage homePage = loginpage.login(USERNAME, PASSWORD, SAMPLE_REPO);
 
 		String actualMsg = homePage.getRepoName();
-		String expectedMsg = "SampleRepositoy";
-		Assert.assertEquals(actualMsg, expectedMsg, "Can't login with correct credentials");
+		System.out.println("RepoName is: "+actualMsg);
+		String expectedMsg = "SampleRepository";
+		Assert.assertEquals(actualMsg, expectedMsg,"Can't login with correct credentials");
+		//Assert.assertEquals(actualMsg, expectedMsg, "Can't login with correct credentials");
+		
 	}
 }
