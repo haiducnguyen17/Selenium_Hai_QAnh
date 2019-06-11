@@ -33,12 +33,12 @@ public class LoginTestInvalidUsername extends BaseTest{
 		LoginPage loginpage = new LoginPage();
 		HomePage homePage = loginpage.login(USERNAME, PASSWORD, SAMPLE_REPO);
 
-		WebDriver driver = new ChromeDriver();
+		BaseDriver driver = TestExecutor.getInstance().getCurrentDriver();
 		
 		Alert alertText = driver.switchTo().alert();
 		String actualAlertMsg = alertText.getText();
 		String expectedAlertMsg = "Username or password is invalid";
-		System.out.println("Alert message" +alertText.getText());
+		System.out.println("Alert message" +actualAlertMsg);
 		Assert.assertEquals(actualAlertMsg, expectedAlertMsg, "Can login with incorrect credentials");
 		alertText.accept();
 	}

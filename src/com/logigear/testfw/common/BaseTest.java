@@ -47,7 +47,7 @@ public class BaseTest {
 	}
 	
 	
-	@AfterMethod(alwaysRun = true)
+	//@AfterMethod(alwaysRun = true)
 	 public void cleanUp(ITestResult result) 
 	{
 		Collection<BaseDriver> drivers = DriverManager.getInstance().getAllDrivers();
