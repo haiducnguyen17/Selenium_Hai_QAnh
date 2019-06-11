@@ -39,7 +39,7 @@ public class LoginTestInvalidUsername extends BaseTest{
 		String actualAlertMsg = alertText.getText();
 		String expectedAlertMsg = "Username or password is invalid";
 		System.out.println("Alert message" +alertText.getText());
-		//Assert.assertEquals(actualAlertMsg, expectedAlertMsg, "Can login with incorrect credentials");
+		Assert.assertEquals(actualAlertMsg, expectedAlertMsg, "Can login with incorrect credentials");
 		alertText.accept();
 	}
 }
