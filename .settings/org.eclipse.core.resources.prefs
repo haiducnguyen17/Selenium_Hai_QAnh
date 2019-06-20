@@ -3,6 +3,7 @@ encoding//resources/locators/android/Login.json=UTF-8
 encoding//resources/locators/windows/LoginPage.json=UTF-8
 encoding//src/com/logigear/test/ta_dashboard/pom/HomePage.java=UTF-8
 encoding//src/com/logigear/test/ta_dashboard/pom/LoginPage.java=UTF-8
+encoding//src/com/logigear/test/ta_dashboard/pom/NewPagePopUp.java=UTF-8
 encoding//src/com/logigear/test/ta_dashboard/testcases/LoginTest.java=UTF-8
 encoding//src/com/logigear/test/ta_dashboard/testcases/LoginTestDifferentRepo.java=UTF-8
 encoding//src/com/logigear/test/ta_dashboard/testcases/LoginTestInvalidUsername.java=UTF-8
