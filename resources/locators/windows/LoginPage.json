@@ -27,7 +27,52 @@
 		"account": {
 			"type": "xpath",
 			"value": "//li/a[@href='#Welcome']"
+		},
+		"globalSetting": {
+			"type": "xpath",
+			"value": "//li[@class='mn-setting']"
+		},
+		"addPage": {
+			"type": "xpath",
+			"value": "//li/a[@class='add' and contains(@href,'Page')]"
+		},
+		"createProfile": {
+			"type": "xpath",
+			"value": "//li/a[@class='add' and contains(@href,'create')]"
+		},
+		"createPanel": {
+			"type": "xpath",
+			"value": "//li/a[@class='add' and contains(@href,'#')]"
+		},
+		"PageName_NewPagePopUp": {
+			"type": "xpath",
+			"value": "//td/input[@id='name']"
+		},
+		"ParentPage_NewPagePopUp": {
+			"type": "xpath",
+			"value": "//td/select[@id='parent']"
+		},
+		"NumberColumn_NewPagePopUp": {
+			"type": "xpath",
+			"value": "//td/select[@id='columnnumber']"
+		},
+		"DisplayAfter_NewPagePopUp": {
+			"type": "xpath",
+			"value": "//td/select[@id='afterpage']"
+		},
+		"checkboxPublic_NewPagePopUp": {
+			"type": "xpath",
+			"value": "//td/input[@id='ispublic']"
+		},
+		"btnOK_NewPagePopUp": {
+			"type": "xpath",
+			"value": "//td/input[@id='OK']"
+		},
+		"btnCancel_NewPagePopUp": {
+			"type": "xpath",
+			"value": "//td/input[@id='Cancel']"
 		}
+		
 		
 	}
 }
